@@ -1,98 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Queries Example</title>
+    <title>My First site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
+        p{
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 5px;
+        }
+        .Mysite:link{
+            position: absolute;
+            color: gray;
+            top: 165px;
+            text-decoration: none;
+            
+
+        }
+        .Mysite:hover{
+            color: red;
         }
 
-        .box {
-            width: 100%;
-            height: 100px;
-            background-color: lightblue;
-            margin: 40px auto;
+        .b:link{
+            text-decoration: none;
+            color: gray;
+        }
+        .b:hover{
+            color: red
+        }
+        .myphoto img{
+            position: absolute;
+            top:10px;
+            left: 450px;
         }
         
-        /*@media (min-width: 320px) {*/
-        /*    .box {*/
-        /*        width: 300px;*/
-        /*        background-color: green;*/
-        /*    }*/
-        /*}*/
 
-        /*@media (min-width: 640px) {*/
-        /*    .box {*/
-        /*        width: 450px;*/
-        /*        background-color: red;*/
-        /*    }*/
-        /*}*/
-
-        /*@media (min-width: 768px) {*/
-        /*    .box {*/
-        /*        width: 600px;*/
-        /*        background-color: orange;*/
-        /*    }*/
-        /*}*/
-
-        /*@media (min-width: 1024px) {*/
-        /*    .box {*/
-        /*        width: 900px;*/
-        /*        background-color: blue;*/
-        /*    }*/
-        /*}*/
-
-        /*@media (min-width: 1440px) {*/
-        /*    .box {*/
-        /*        width: 1200px;*/
-        /*        background-color: violet;*/
-        /*    }*/
-        /*}*/
-
-        @media (max-width: 320px) {
-            .box {
-                width: 300px;
-                background-color: green;
-            }
-        }
-
-        @media (min-width: 320px) and  (max-width: 640px) {
-            .box {
-                width: 450px;
-                background-color: red;
-            }
-        }
-
-        @media (min-width: 640px) and  (max-width: 768px) {
-            .box {
-                width: 600px;
-                background-color: orange;
-            }
-        }
-
-        @media (min-width: 768px) and  (max-width: 1024px) {
-            .box {
-                width: 900px;
-                background-color: blue;
-            }
-        }
-
-        @media (min-width: 1024px) and (max-width: 1440px) {
-            .box {
-                width: 1200px;
-                background-color: violet;
-            }
-        }
     </style>
 </head>
 <body>
-<div class="box">test</div>
-<div class="box">test</div>
-<div class="box">test</div>
+<h1>Pavlo Abachinskyi </h1>
+<a class="myphoto"><img src="images.jpg" alt="My photo"  style="width: 20%;float: right"></a>
+<p>I am learning HTMl/CSS and JavaScript.</p>
+
+<p>I am studi at school.I realy went to learn HTML CSS and JS</p>
+<a
+ class="Mysite"  href="https://flayz1k.github.io/di-gi.github.io/" target="_blank" >Portfolio</a>
+<a class="b" href="mailto:zetixklaix@gmail.com" target="_blank">zetixklaix@gmail.com</a>
+
 </body>
 </html>
